@@ -1,0 +1,47 @@
+html {
+  font-family: Georgia;
+}
+
+body {
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  align-items: center;
+  z-index: 20;
+}
+
+ nav {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding-right: 30px;
+}
+
+nav span {
+  padding: 10px;
+}
+
+.logo {
+  color: MediumAquamarine;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo span {
+  padding-left: 10px;
+}
+
+nav a {
+  color: black;
+}
